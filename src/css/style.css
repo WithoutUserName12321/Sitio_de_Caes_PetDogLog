@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 body{
-    background-image: url(/src/imagens/PetDogLog_Background.png);
+    /*background-image: url(/src/imagens/PetDogLog_Background.png);*/
     background-size:cover;
     background-repeat: no-repeat;
     background-attachment:fixed ;
@@ -35,8 +35,8 @@ margin-right: 90px;
 }
 
 .logo{
-    width: 20rem;
-    height: auto;
+    width:auto ;
+    height: 180px;
     margin-right: 80px;
 }
 
