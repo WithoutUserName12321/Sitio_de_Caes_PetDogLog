@@ -66,14 +66,14 @@ margin-right: 90px;
 }
 
 .carrocel{
-    .carrocel {
         height: 400px;
-        background-color: orangered;
-        width: 200px;
-        margin: 0 auto; /* Centraliza horizontalmente */
-        /* Outras propriedades de estilo, se necessário */
+        background-color: #FC6B07;
+        width: 1300px;
+        margin: 0 auto;
+        margin-top: 40px;
+        border-radius: 30px;
     }
-}
+
 
 
 
