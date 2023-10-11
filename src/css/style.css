@@ -9,6 +9,9 @@ header{
     display: flex;
     align-items: center;
  }
+ nav{
+    
+ }
 
 .links{
    list-style: none;
@@ -25,6 +28,78 @@ margin-right: 90px;
    text-decoration: none;
    font-size: 20px;
 }
+
+.logo{
+    width: 100px; 
+    height: auto;
+    margin-right: 20px; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 body{
    height: 150vh;
