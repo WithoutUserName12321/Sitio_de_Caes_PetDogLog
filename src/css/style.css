@@ -140,7 +140,40 @@ margin-right: 90px;
 
 
 body{
-   height: 1000px;
+   height: 200vh;
    background-color: #f3f2f3;
 }
 
+
+
+.carta{
+   background-color: #fc6b07;
+   height:494.2px;
+   width:308.2px;
+   border-radius: 3%;
+   position:absolute; 
+   top: 120vh;
+   left:38.2vw
+   
+}  
+.carta1{
+   background-color: #fc6b07;
+   height:419.7px;
+   width:293.1px;
+   border-radius: 3%;
+   position:absolute; 
+   top: 129vh;
+   left:15vw
+      
+   }  
+
+.carta2{
+   background-color: #fc6b07;
+   height:419.7px;
+   width:293.1px;
+   border-radius: 3%;
+   position:absolute; 
+   top: 129vh;
+   left:62.2vw
+   
+}  
