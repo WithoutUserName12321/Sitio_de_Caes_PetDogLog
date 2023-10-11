@@ -5,7 +5,7 @@
 
 header{
     height: auto;
-    background-color: rgb(114, 62, 138);
+
     display: flex;
     align-items: center;
     justify-content: space-between;
