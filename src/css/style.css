@@ -27,7 +27,15 @@ margin-right: 90px;
 }
 
 body{
-   height: 1000px;
+   height: 150vh;
    background-color: #f3f2f3;
 }
 
+.carta{
+   background-color: #fc6b07;
+   height: 2px;
+   width:308.2px;
+   border-radius: 3%;
+   position:absolute; 
+   top: 100vh;
+}  
