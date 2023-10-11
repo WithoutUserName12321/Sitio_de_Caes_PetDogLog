@@ -8,9 +8,18 @@ header{
     background-color: rgb(114, 62, 138);
     display: flex;
     align-items: center;
+    justify-content: space-between;
  }
  nav{
-    
+    margin: 3px;
+    height: 70px;
+    display: flex;
+    background-color: green;
+    align-items: center;
+    border-radius: 30px;
+    justify-content: center;
+    margin-left: 200px;
+    margin-top: 50px;
  }
 
 .links{
@@ -35,7 +44,36 @@ margin-right: 90px;
     margin-right: 20px; 
 }
 
+.nav Denuncias {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
 
+#Denuncias{
+    margin: 3px;
+    height: 70px;
+    width: 150px;
+    display: flex;
+    background-color: green;
+    align-items: center;
+    border-radius: 30px;
+    justify-content: center;
+   
+     
+}
+
+.carrocel{
+    .carrocel {
+        height: 400px;
+        background-color: orangered;
+        width: 200px;
+        margin: 0 auto; /* Centraliza horizontalmente */
+        /* Outras propriedades de estilo, se necessário */
+    }
+}
 
 
 
