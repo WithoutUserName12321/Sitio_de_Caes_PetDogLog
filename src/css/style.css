@@ -225,6 +225,7 @@ body{
    display: flex;
    justify-content: center;
    align-items: center;
+   color: #ffffff;
    }  
 
 .carta2{
@@ -238,4 +239,11 @@ body{
    display: flex;
    justify-content: center;
    align-items: center;
+   color: #ffffff;
 }  
+#title1{
+   font-size: 35px;
+   position: relative;
+   top: 5vh;
+  
+}
