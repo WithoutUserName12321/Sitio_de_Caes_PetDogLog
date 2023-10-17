@@ -19,6 +19,7 @@
 .body2 {
    background-color: #ff8a8a; /* Cor de fundo para body2 */
    height: 100vh; /* 50% da altura da janela do navegador */
+   background-image: url(img/fundoHome2.jpg);
 }
 header{
     height: auto;
