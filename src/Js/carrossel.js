@@ -20,4 +20,4 @@ function prevNews() {
 nextButton.addEventListener('click', nextNews);
 prevButton.addEventListener('click', prevNews);
 
-setInterval(nextNews, 3000);
+setInterval(nextNews, 4000);
