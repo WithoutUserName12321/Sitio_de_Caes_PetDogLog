@@ -199,7 +199,7 @@ body{
    border-radius: 3%;
    position:absolute; 
    top: 120vh;
-   left:38.2vw
+   left:38.2vw;
    
 }  
 .carta1{
@@ -209,8 +209,10 @@ body{
    border-radius: 3%;
    position:absolute; 
    top: 129vh;
-   left:15vw
-      
+   left:15vw;
+   display: flex;
+   justify-content: center;
+   align-items: center;
    }  
 
 .carta2{
@@ -220,6 +222,8 @@ body{
    border-radius: 3%;
    position:absolute; 
    top: 129vh;
-   left:62.2vw
-   
+   left:62.2vw;
+   display: flex;
+   justify-content: center;
+   align-items: center;
 }  
