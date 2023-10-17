@@ -12,14 +12,15 @@
  
 }
 .body1 {
-   background-color: #e20000; /* Cor de fundo para body1 */
-   height: 100vh; /* 50% da altura da janela do navegador */
+   background-color: #e20000;
+   height: 100vh; 
 }
 
 .body2 {
-   background-color: #ff8a8a; /* Cor de fundo para body2 */
-   height: 100vh; /* 50% da altura da janela do navegador */
+   background-color: #ff8a8a;
+   height: 100vh; 
 }
+
 header{
     height: auto;
 
