@@ -112,50 +112,46 @@ margin-right: 90px;
    transform: translateY(-50%); /* Centraliza verticalmente */
    z-index: 2; /* Defina um valor de índice z para a camada superior */
 }
-.Noticias {
-   display: flex;
-   transition: transform 0.5s ease;
-   /* Faça as notícias ocuparem toda a largura do carrossel */
-   width: 100%;
-   height: 100%;
-   /* Altere a largura e a altura das notícias para ocuparem a largura total do carrossel */
+.Noticias{
+  width: 1300px;
+  height: 400px;
+  display: flex;
+  transition: transform 0.5s ease;
+  
+}  
+.noticia{
+
+      flex: 0 0 100%; /* Cada notícia ocupa a largura total do carrossel */
+      text-align: center;
+      font-size: 24px;
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      /* Faça cada notícia ocupar a largura total do carrossel */
+      width: 100%;
+      transition: transform 0.5s ease;
+      /* Adicione uma transição para criar um efeito de deslizamento */
+   
+}
+
+#noticia-1{
    width: 1300px;
-   height: 400px;
+   background-color: #007bff;
 }
-
-.noticia {
-   flex: 1;
-   text-align: center;
-   font-size: 24px;
-   color: #fff;
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-   align-items: center;
-}
-
-.Noticias p {
+#noticia-2{
    width: 100%;
-   text-align: center;
-   font-size: 24px;
-   color: #fff;
-   height: 100%;
+   background-color: #00ff40;
 }
-   .noticia.noticia-1 {
-      background-color: #e74c3c;
-   }
-   
-   .noticia.noticia-2 {
-      background-color: #f1c40f;
-   }
-   
-   .noticia.noticia-3 {
-      background-color: #27ae60;
-   }
-   
-   .noticia.noticia-4 {
-      background-color: #000000;
-   }
+#noticia-3{
+   width: 1300px;
+   background-color: #ff1100;
+}
+#noticia-4{
+   width: 1300px;
+   background-color: #e100ff;
+}
 #Before{
 left: 10px;
 }
