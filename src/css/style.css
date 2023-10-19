@@ -115,6 +115,7 @@ margin-right: 90px;
    top: 50%; /* Centraliza verticalmente */
    transform: translateY(-50%); /* Centraliza verticalmente */
    z-index: 2; /* Defina um valor de índice z para a camada superior */
+   font-size: 30px;
 }
 .Noticias{
   width: 1300px;
