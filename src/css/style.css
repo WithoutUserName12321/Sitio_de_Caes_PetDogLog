@@ -31,6 +31,10 @@ header{
     align-items: center;
     justify-content: space-between;
  }
+ header img{
+   height: 300px;
+   margin: 300px;
+ }
  nav{
     margin: 3px;
     height: 70px;
@@ -84,7 +88,7 @@ margin-right: 90px;
     align-items: center;
     border-radius: 30px;
     justify-content: center;
-    margin-right: 10px;
+    margin-right: 20px;
         
 }
 
