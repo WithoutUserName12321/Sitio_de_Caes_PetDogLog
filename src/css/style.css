@@ -30,10 +30,11 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 2x;
  }
- header img{
-   height: 300px;
-   margin: 300px;
+ .header img{
+   height: 100px;
+   margin: 100px;
  }
  nav{
     margin: 3px;
@@ -43,7 +44,7 @@ header{
     align-items: center;
     border-radius: 30px;
     justify-content: center;
-    margin-left: 200px;
+    /*margin-left: 200px;*/
     margin-top: 50px;
     width: auto;
  }
