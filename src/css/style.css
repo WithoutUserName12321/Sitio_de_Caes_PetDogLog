@@ -83,16 +83,40 @@ margin-right: 90px;
 #Denuncias{
     margin: 3px;
     height: 70px;
-    width: 150px;
+    width: 200px;
     display: flex;
-    background-color: green;
+    background-color: rgb(255, 255, 255);
     align-items: center;
     border-radius: 30px;
     justify-content: center;
     margin-right: 20px;
+    z-index: 1;
+    font-size: 20px;
+    text-align: right;
+    justify-content: flex-end;
+    padding-right: 5px;
+    margin-left: 20px;
+    text-align: center;
         
 }
-
+.div-sobreposta {
+   height:auto ;
+   width: 50px;
+   background-color: red;
+   position: absolute;
+   transform: translateY(-50%);
+   padding: 10px;
+   border-radius: 50px;
+   text-align: center;
+   font-size: 40px;
+   color: white;
+   font-style: bold;
+   /*font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;*/
+   top: 85px;
+   left: 1055px;
+   z-index: 2;
+   transform: translateY(-50%);
+}
 .carrossel{
    height: 400px;
    background-color: #3498db;
