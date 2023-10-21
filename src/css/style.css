@@ -75,6 +75,7 @@ header{
    padding-left: 100px;
    margin-left: 100px;
    color: #fff;
+   width: calc(1100px - 100px);
  }
 
 .links{
@@ -98,12 +99,14 @@ margin-right: 90px;
 .logo {
    width: 250px;
    height: auto;
-   margin-left: 50px;
+   margin-left: -190px;
    z-index: 2; /* Defina um valor de índice z para a camada superior (maior que o menu) */
    position: absolute; /* Posição absoluta para a logo */
    left: 100px;
    top: 50%; /* Centralize verticalmente */
    transform: translateY(-50%); /* Centralize verticalmente */
+   right: 200px;
+   margin-top: 30px;
 }
 
 .nav Denuncias {
@@ -149,7 +152,7 @@ margin-right: 90px;
    font-style: bold;
    /*font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;*/
    top: 105px;
-   left:975px;
+   left:920px;
    z-index: 2;
    transform: translateY(-50%);
    margin-left: 45px;
