@@ -25,34 +25,63 @@
 }
 
 header{
-    height: auto;
-
+    /*height: auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 2x;
- }
- .header img{
-   height: 100px;
-   margin: 100px;
- }
- nav{
-    margin: 3px;
-    height: 70px;
+    padding: 2x;*/
+    height: auto;
     display: flex;
-    background-color: #6B2588;
     align-items: center;
-    border-radius: 30px;
-    justify-content: center;
-    /*margin-left: 200px;*/
-    margin-top: 50px;
-    width: auto;
+    justify-content: space-between;
+    padding: 20px;
+    position: relative; /* Adicione posição relativa ao cabeçalho */
+ }
+ .header img {
+   /*height: 100px;
+   margin: 100px;
+   position: absolute; /* Posição absoluta para o logotipo 
+   right: 0; /* Posicione o logotipo à direita do cabeçalho
+   top: 50%; /* Centralize verticalmente 
+   transform: translateY(-50%); /* Centralize verticalmente 
+   z-index: 2; /* Defina um valor de índice z para a camada superior */
+   height: 100px;
+   position: absolute;
+   left: 0; /* Posicione o logotipo à esquerda do cabeçalho */
+   top: 50%; /* Centralize verticalmente */
+   transform: translateY(-50%); /* Centralize verticalmente */
+   z-index: 2; /* Defina um valor de índice z para a camada superior */
+}
+ nav{
+   /* margin: 3px;
+   height: 70px;
+   display: flex;
+   background-color: #6B2588;
+   align-items: center;
+   border-radius: 30px;
+   justify-content: center;
+   margin-top: 50px;
+   width: auto;
+   position:relative;*/
+   margin: 3px;
+   height: 80px;
+   display: flex;
+   background-color: #6B2588;
+   align-items: center;
+   border-radius: 30px;
+   justify-content: center;
+   width: 1100px;
+   margin-top: 50px;
+   padding-left: 100px;
+   margin-left: 100px;
+   color: #fff;
  }
 
 .links{
    list-style: none;
-   padding:20px;
-   margin-left: 30px;
+   padding:10px;
+   color: white;
+  
 }
 .links li{
 display: inline;
@@ -61,15 +90,20 @@ margin-right: 90px;
 }
 
 .links li a{
-   color:black;
+   color:rgb(255, 255, 255);
    text-decoration: none;
    font-size: 20px;
 }
 
-.logo{
-    width: 250px; 
-    height: auto;
-    margin-right: 20px; 
+.logo {
+   width: 250px;
+   height: auto;
+   margin-left: 50px;
+   z-index: 2; /* Defina um valor de índice z para a camada superior (maior que o menu) */
+   position: absolute; /* Posição absoluta para a logo */
+   left: 100px;
+   top: 50%; /* Centralize verticalmente */
+   transform: translateY(-50%); /* Centralize verticalmente */
 }
 
 .nav Denuncias {
@@ -87,16 +121,18 @@ margin-right: 90px;
     display: flex;
     background-color: rgb(255, 255, 255);
     align-items: center;
-    border-radius: 30px;
+    border-radius: 35px;
     justify-content: center;
     margin-right: 20px;
     z-index: 1;
     font-size: 20px;
     text-align: right;
     justify-content: flex-end;
-    padding-right: 5px;
-   
+    padding-right: 30px;
+   margin-right: 80pxpx;
+   right: 10px;
     text-align: center;
+
         
 }
 .div-sobreposta {
@@ -112,10 +148,12 @@ margin-right: 90px;
    color: white;
    font-style: bold;
    /*font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;*/
-   top: 85px;
-   left: 1055px;
+   top: 105px;
+   left:975px;
    z-index: 2;
    transform: translateY(-50%);
+   margin-left: 45px;
+   margin-top:5px ;
 }
 .carrossel{
    height: 400px;
@@ -130,11 +168,12 @@ margin-right: 90px;
    /* Adicione uma posição relativa para criar uma camada de posicionamento */
    position: relative;
    margin-top: 20px;
+   
 }
 
 .botaoCarrossel {
-   background-color: #fff;
-   color: #3498db;
+   background-color: transparent;
+   color: #ffffff;
    border: none;
    border-radius: 5px;
    cursor: pointer;
@@ -144,7 +183,8 @@ margin-right: 90px;
    top: 50%; /* Centraliza verticalmente */
    transform: translateY(-50%); /* Centraliza verticalmente */
    z-index: 2; /* Defina um valor de índice z para a camada superior */
-   font-size: 30px;
+   font-size: 50px;
+
 }
 .Noticias{
   width: 1300px;
@@ -172,19 +212,19 @@ margin-right: 90px;
 
 #noticia-1{
    width: 1300px;
-   background-color: #007bff;
+   background-color: #FC6B07;
 }
 #noticia-2{
    width: 100%;
-   background-color: #00ff40;
+   background-color: #FC6B07;
 }
 #noticia-3{
    width: 1300px;
-   background-color: #ff1100;
+   background-color: #FC6B07;
 }
 #noticia-4{
    width: 1300px;
-   background-color: #e100ff;
+   background-color: #FC6B07;
 }
 #Before{
 left: 10px;
