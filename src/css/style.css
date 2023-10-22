@@ -13,15 +13,16 @@
 }
 .body1 {
    background-color: #f3f2f3;
-   height: 100vh; 
+   height: 110vh; 
 }
 
 .body2 {
 
    background-color: #ff8a8a;
-   height: 100vh; 
-   height: 100vh; /* 50% da altura da janela do navegador */
-   background-image: url(img/fundoHome2.jpg);
+   height: 110vh; 
+   height: 110vh; /* 50% da altura da janela do navegador */
+   /*background-image: url(img/fundoHome2.jpg);*/
+   background-color: #6B2588;
 }
 
 header{
@@ -237,75 +238,18 @@ left: 10px;
    right: 10px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*-------------------------------------------------------PÁGINA 2---------------------------------------------------------------*/
 
 body{
    height: 200vh;
    background-color: #f3f2f3;
 }
-
-
-
+.Cartas{
+   height: 600px;
+   background-color: #ff8a8a;
+   width: 1000px;
+   margin-top: 200px;
+}
 .carta{
    background-color: #fc6b07;
    height:494.2px;
@@ -335,5 +279,64 @@ body{
    position:absolute; 
    top: 129vh;
    left:62.2vw
-   
-}  
+}
+.carta ,.carta1, .carta2{
+   margin-top: 100px;
+}
+
+.body2 h1{
+   margin-top: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
