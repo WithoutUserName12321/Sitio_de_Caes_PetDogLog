@@ -24,7 +24,14 @@
    background-image: url(img/fundoHome2.jpg);
    background-color: #6B2588;
 }
-
+.body3{
+   height: 110vh; 
+   background-color: aqua;
+}
+.body4{
+   background-color: blueviolet;
+   height: 110vh; 
+}
 header{
     /*height: auto;
     display: flex;
