@@ -12,21 +12,26 @@
  
 }
 .body1 {
-   background-color: #f3f2f3;
-   height: 110vh; 
+   background-color: #4e274e;
+   height: 100vh; 
+   
 }
 
 .body2 {
 
    background-color: #ff8a8a;
-   height: 110vh; 
-   height: 110vh; /* 50% da altura da janela do navegador */
-   background-image: url(img/fundoHome2.jpg);
+   height: 100vh; 
+   margin-top: 300px;
+   background-image: url(img/page2.png);
    background-color: #6B2588;
 }
 .body3{
    height: 110vh; 
-   background-color: aqua;
+   margin-top: 200px;
+   background-image: url(img//pagina3.png);
+   background-repeat: no-repeat;
+   position: relative;
+
 }
 .body4{
    background-color: #FC6B07;
@@ -290,13 +295,15 @@ body{
    left:62.2vw
 }
 .carta ,.carta1, .carta2{
-   margin-top: 100px;
+   margin-top: 390px;
 }
 
 .body2 h1{
-   margin-top: 50px;
+   margin-top: 40px;
    text-align: center;
    position: absolute;
+   font-size: 50px;
+   margin-left: 60px;
 }
 
 #antes{
@@ -315,7 +322,7 @@ right: 10px;
     height: 60px; /* Ajuste a altura conforme necessário */
     width: 60px; 
     text-align: center;
-    margin-top: 300px;
+    margin-top: 400px;
     
 }
 
@@ -328,7 +335,25 @@ right: 10px;
 
 
 /*-------------------------------------------------------PÁGINA 3---------------------------------------------------------------*/
+.body3 h1{
+   margin-top: 40px;
+   text-align: center;
+   position: absolute;
+   font-size: 50px;
+   margin-left: 565px;
+   color: #2D1E15;
+}
 
+.noticias3{
+   background-color: #6B2588;
+   height: 200px;
+   width: 900px;
+   margin-left: 250px;
+   position: absolute; /* Use position: absolute na .noticias3 */
+   top: 250px; 
+  
+
+}
 
 
 
@@ -342,7 +367,7 @@ right: 10px;
 }
 .Ctt{
    font-style: bold;
-   
+
 }
 
 
