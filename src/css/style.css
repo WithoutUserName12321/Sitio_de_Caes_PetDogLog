@@ -29,7 +29,7 @@
    background-color: aqua;
 }
 .body4{
-   background-color: blueviolet;
+   background-color: #FC6B07;
    height: 110vh; 
 }
 header{
@@ -192,7 +192,7 @@ margin-right: 90px;
    /* Altere o posicionamento dos botões dentro da .carrossel */
    position: absolute;
    top: 50%; /* Centraliza verticalmente */
-   transform: translateY(-50%); /* Centraliza verticalmente */
+   transform: translateZ(-50%); /* Centraliza verticalmente */
    z-index: 2; /* Defina um valor de índice z para a camada superior */
    font-size: 50px;
 
@@ -327,13 +327,23 @@ right: 10px;
 
 
 
+/*-------------------------------------------------------PÁGINA 3---------------------------------------------------------------*/
 
 
 
 
+/*-------------------------------------------------------PÁGINA 4---------------------------------------------------------------*/
+.footerImagem{
+   height: 400px;
+   width:700px;
+   margin-top: 200px;
+   margin-left: -100px;
 
-
-
+}
+.Ctt{
+   font-style: bold;
+   
+}
 
 
 
