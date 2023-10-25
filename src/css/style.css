@@ -200,6 +200,7 @@ margin-right: 90px;
    transform: translateZ(-50%); /* Centraliza verticalmente */
    z-index: 2; /* Defina um valor de índice z para a camada superior */
    font-size: 50px;
+   cursor: pointer;
 
 }
 .Noticias{
@@ -352,8 +353,28 @@ right: 10px;
    top: 260px; /* Define o topo para 50% da altura da página */
    left: 50%; /* Define a esquerda para 50% da largura da página */
    transform: translate(-50%, -50%); /* Centraliza a div */
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   
+}
+.noticias3 p{
+   font-size: 30px;
+   margin-top: 65px;
+   color:white;
+}
+.radio-button {
+   text-align: center;
 }
 
+.radio-button label {
+   display: inline-block;
+   margin: 5px; /* Ajuste a margem conforme necessário para controlar o espaçamento entre os botões */
+}
+
+.radio-button input[type="radio"] {
+   margin-right: 5px; /* Adicione margem à direita para criar um espaço entre o rótulo e o botão de opção */
+}
 
 .container {
    display: flex; /* Use flexbox para alinhar as divs lado a lado */
@@ -362,16 +383,55 @@ right: 10px;
 
 
 }
-.texto1,.texto2,.texto3{
-   flex: 1; /* Faz todas as divs terem o mesmo tamanho */
+.texto1, .texto2, .texto3 {
    background-color: #690096;
    margin-top: 370px;
    height: 250px;
-   margin-right: 20px;
    margin-left: 20px;
-   width:100px ;
+   margin-right: 20px;
+   width: 600px; /* Diminua a largura para 600px em conjunto */
+   text-align: center;
+   color:white;
 }
 
+
+.texto1 {
+   width: 600px; /* Aumente a largura da .texto1 */
+   margin-left: 20px; /* Adicione margem esquerda para manter o espaço à esquerda */
+}
+
+.texto2 {
+   width: 600px; /* Aumente a largura da .texto2 */
+   margin-left: 20px; /* Adicione margem esquerda para manter o espaço à esquerda */
+}
+
+.texto3 {
+   width: 600px; /* Aumente a largura da .texto3 */
+}
+
+#noticia-antes {
+   position: absolute;
+   left: 10px; /* Posiciona o botão "Anterior" à esquerda */
+   top: 60px; /* Pode ajustar conforme necessário */
+   font-size: 30px;
+   cursor: pointer;
+   color: white;
+   background-color: transparent;
+   border:none;
+}
+#noticia-depois {
+   position: absolute;
+   right: 10px; /* Posiciona o botão "Próximo" à direita */
+   top: 60px; /* Pode ajustar conforme necessário */
+   font-size: 30px;
+   cursor: pointer;
+   color: white;
+   background-color: transparent;
+   border:none;
+}
+#timon{
+
+}
 /*-------------------------------------------------------PÁGINA 4---------------------------------------------------------------*/
 .footerImagem{
    height: 400px;
