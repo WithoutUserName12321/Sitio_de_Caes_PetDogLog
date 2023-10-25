@@ -12,7 +12,7 @@
  
 }
 .body1 {
-   background-color: #4e274e;
+   background-color: #F3F2F3;
    height: 100vh; 
    
 }
@@ -344,18 +344,33 @@ right: 10px;
    color: #2D1E15;
 }
 
-.noticias3{
+.noticias3 {
    background-color: #6B2588;
-   height: 200px;
-   width: 900px;
-   margin-left: 250px;
-   position: absolute; /* Use position: absolute na .noticias3 */
-   top: 250px; 
-  
-
+   height: 150px;
+   width: 1000px;
+   position: absolute;
+   top: 260px; /* Define o topo para 50% da altura da página */
+   left: 50%; /* Define a esquerda para 50% da largura da página */
+   transform: translate(-50%, -50%); /* Centraliza a div */
 }
 
 
+.container {
+   display: flex; /* Use flexbox para alinhar as divs lado a lado */
+   justify-content: space-between; /* Distribuir o espaço entre as divs */
+   margin-top: 10px;
+
+
+}
+.texto1,.texto2,.texto3{
+   flex: 1; /* Faz todas as divs terem o mesmo tamanho */
+   background-color: #690096;
+   margin-top: 370px;
+   height: 250px;
+   margin-right: 20px;
+   margin-left: 20px;
+   width:100px ;
+}
 
 /*-------------------------------------------------------PÁGINA 4---------------------------------------------------------------*/
 .footerImagem{
