@@ -13,7 +13,7 @@
 }
 .body1 {
    background-color: #F3F2F3;
-   height: 100vh; 
+   height: 110vh; 
    
 }
 
@@ -165,7 +165,7 @@ margin-right: 90px;
    font-style: bold;
    /*font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;*/
    top: 105px;
-   left: 920px;
+   left: 900px;
    z-index: 2;
    transform: translateY(-50%);
    margin-left: 45px;
@@ -429,23 +429,43 @@ right: 10px;
    background-color: transparent;
    border:none;
 }
-#timon{
 
-}
 /*-------------------------------------------------------PÁGINA 4---------------------------------------------------------------*/
-.footerImagem{
+.footerImagem {
    height: 400px;
-   width:700px;
+   width: 700px;
    margin-top: 200px;
    margin-left: -100px;
-
-}
-.Ctt{
-   font-style: bold;
-
+   float: left; /* Alinhe a imagem à esquerda */
 }
 
+.contato {
+   font-weight: bold; /* Corrija a propriedade 'font-style' para 'font-weight' para definir a espessura da fonte */
+   float: left; /* Alinhe o texto à esquerda */
+   top: 20px;
+   margin-top: 200px;
+   left: 40px;
+   position: relative;
+}
 
+.texto{
+ top:190px;
+   position:relative;
+   left: 90px;
+}
+
+#titulo{
+font-style: bold;
+right: 20px;
+}
+
+.Ifma {
+   
+   position: relative;
+   top: 300px; /* Use a propriedade 'top' para deslocar a div para baixo */
+   display: block;
+   margin-right:300px;
+}
 
 
 
